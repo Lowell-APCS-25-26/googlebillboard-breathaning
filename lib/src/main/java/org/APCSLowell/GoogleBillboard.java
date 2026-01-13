@@ -12,7 +12,7 @@ public class GoogleBillboard {
         }
         return true;
     }
-    public long firstPrimeNumberIn(String n) {
+    public long firstPrimeNumberIn(String n) { 
         for (int i = 0; i < n.length() - 10; i++) {
             long x = Long.valueOf(n.substring(i, i + 10));
             if (isPrime(x)) return x;
